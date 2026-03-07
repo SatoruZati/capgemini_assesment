@@ -56,11 +56,11 @@ public class Main {
 
         //  Order CRUD
 
-        Order o1 = new Order("ORD-001", "iPhone 17 Pro Max", 1, 134999.0, LocalDate.of(2024, 2, 1));
-        Order o2 = new Order("ORD-002", "Samsung Galaxy S26 Ultra", 2, 109999.0, LocalDate.of(2024, 3, 10));
-        Order o3 = new Order("ORD-003", "Dell ALienware 15 Laptop", 1, 189999.0, LocalDate.of(2024, 4, 15));
-        Order o4 = new Order("ORD-004", "Sony Alpha A7 Camera", 1, 249999.0, LocalDate.of(2024, 5, 20));
-        Order o5 = new Order("ORD-005", "MacBook Pro 14 M5", 1, 219999.0, LocalDate.of(2024, 6, 1));
+        Order o1 = new Order("ORD-001", "iPhone 17 Pro Max", 1, 134670.0, LocalDate.of(2024, 2, 1));
+        Order o2 = new Order("ORD-002", "Samsung Galaxy S26 Ultra", 2, 107899.0, LocalDate.of(2024, 3, 10));
+        Order o3 = new Order("ORD-003", "Dell ALienware 15 Laptop", 1, 189785.0, LocalDate.of(2024, 4, 15));
+        Order o4 = new Order("ORD-004", "Sony Alpha A7 Camera", 1, 242290.0, LocalDate.of(2024, 5, 20));
+        Order o5 = new Order("ORD-005", "MacBook Pro 14 M5", 1, 219659.0, LocalDate.of(2024, 6, 1));
 
         // link orders to customers
         o1.setCustomer(messi);
