@@ -84,7 +84,7 @@ A **Spring Boot** application implementing an **Employee Management System** wit
 
 ---
 
-## 🛠️ Tech Stack Summary
+##  Tech Stack Summary
 
 | Technology | Used In |
 |---|---|
