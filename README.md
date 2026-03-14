@@ -4,7 +4,7 @@ Weekly Capgemini Training Assignments — Java backend projects covering Spring 
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 capgemini_assesment/
@@ -15,7 +15,7 @@ capgemini_assesment/
 
 ---
 
-## 📦 Projects
+## Projects
 
 ### 1. `spring_IoC_assignment` — Spring IoC & Dependency Injection
 
@@ -78,9 +78,9 @@ A **Spring Boot** application implementing an **Employee Management System** wit
 - Supports soft-delete, JPQL queries, and full transaction management
 
 **Assignment coverage:**
-- ✅ Insert, update, soft-delete employees; fetch by id / employeeCode / all active
-- ✅ Salary record CRUD with auto `netSalary = baseSalary + bonus - tax`
-- ✅ Performance review CRUD with employee-scoped fetch
+-  Insert, update, soft-delete employees; fetch by id / employeeCode / all active
+-  Salary record CRUD with auto `netSalary = baseSalary + bonus - tax`
+-  Performance review CRUD with employee-scoped fetch
 
 ---
 
