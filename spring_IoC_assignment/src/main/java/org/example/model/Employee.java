@@ -9,7 +9,7 @@ public class Employee {
     private double salary;
     private Address address;
 
-    // Address is injected through constructor injection.
+    // Address injected, constructor injection.
     public Employee(Address address) {
         this.address = address;
     }
