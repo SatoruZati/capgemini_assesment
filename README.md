@@ -88,11 +88,11 @@ A **Spring Boot** application implementing an **Employee Management System** wit
 
 | Technology | Used In |
 |---|---|
-| Java 21 | `spring_IoC_assignment`, `03-03-2026` |
+| Java 21 | `spring_IoC_assignment` |
 | Java 24 | `customer_jdbc_maven` |
 | Spring Framework 7 | `spring_IoC_assignment` |
 | Spring Boot 4 | `03-03-2026` |
-| Hibernate / JPA | `customer_jdbc_maven`, `03-03-2026` |
-| PostgreSQL | `customer_jdbc_maven`, `03-03-2026` |
+| Hibernate / JPA | `customer_jdbc_maven` |
+| PostgreSQL | `customer_jdbc_maven` |
 | Maven | All projects |
-| JUnit 5 | `spring_IoC_assignment`, `03-03-2026` |
+| JUnit 5 | `spring_IoC_assignment` |
