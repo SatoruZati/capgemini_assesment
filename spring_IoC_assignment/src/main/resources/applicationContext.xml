@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="org.example.model.Address">
+        <!-- address bean-->
+        <property name="id" value="1"/>
+        <property name="city" value="Bangalore"/>
+        <property name="state" value="Karnataka"/>
+        <property name="country" value="India"/>
+        <property name="pincode" value="560001"/>
+    </bean>
+
+    <bean id="employee" class="org.example.model.Employee">
+        <!--    employee bean  -->
+        <!-- constructor injection for Address object -->
+        <constructor-arg ref="address"/>
+
+        <!-- Setter injection for fields -->
+        <property name="id" value="101"/>
+        <property name="name" value="Mike"/>
+        <property name="email" value="mike@gmail.com"/>
+        <property name="password" value="mike@123"/>
+        <property name="age" value="28"/>
+        <property name="salary" value="60000"/>
+    </bean>
+
+    <bean id="employeeService" class="org.example.service.EmployeeServiceImpl">
+        <property name="employee" ref="employee"/>
+    </bean>
+
+</beans>
+
